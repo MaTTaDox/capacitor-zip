@@ -1,0 +1,88 @@
+{
+  "api": {
+    "name": "CapacitorZipPlugin",
+    "slug": "capacitorzipplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "unzip",
+        "signature": "(options: UnzipOptions) => Promise<UnzipResult>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "UnzipOptions"
+          }
+        ],
+        "returns": "Promise<UnzipResult>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "UnzipResult",
+          "UnzipOptions"
+        ],
+        "slug": "unzip"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "UnzipResult",
+      "slug": "unzipresult",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "message",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "uri",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        }
+      ]
+    },
+    {
+      "name": "UnzipOptions",
+      "slug": "unzipoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "source",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "destination",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "password",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
